@@ -48,7 +48,12 @@ const GalleryWidget = () => {
             <div className="flex mx-10 mt-10 space-x-4">
                 {imgArr.map((img, index) => (
                     <div key={index} className="w-48 h-48 bg-gray-700 rounded-3xl flex-shrink-0">
-                        <img src={img} className="rounded-3xl w-48 h-48 object-cover hover:" alt={`photo-${index + 1}`} />
+                        <img
+                            src={img}
+                            className="rounded-3xl w-48 h-48 object-cover cursor-pointer max-w-xs transition duration-300 ease-in-out filter grayscale hover:grayscale-0 hover:scale-110"
+                            alt={`photo-${index + 1}`}
+                        />
+
                     </div>
                 ))}
             </div>
