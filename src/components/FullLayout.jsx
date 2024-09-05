@@ -13,8 +13,10 @@ const MainLayout = () => {
       <div className="w-full lg:w-1/2 p-6 space-y-6 mt-10">
       <div>
         <TabsWidget />
+        <div className="w-[600px] h-[4px] mx-auto rounded-full shadow-lg shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] bg-gray-600 mt-6"></div>
       </div>
         <GalleryWidget />
+        <div className="w-[600px] h-[4px] mx-auto rounded-full shadow-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] bg-gray-600 mt-6"></div>
       </div>
     </div>
   );
