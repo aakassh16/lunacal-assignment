@@ -8,40 +8,47 @@ const TabsWidget = () => {
     const [activeTab, setActiveTab] = useState('about');
 
     return (
-        <div className="bg-gray-700 p-6 rounded-2xl shadow-lg w-full">
-            <FontAwesomeIcon
-                icon={faCircleQuestion}
-                className="absolute -mt-1 text-gray-400 shadow-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] text-2xl -ml-3 cursor-pointer "
-            />
-            <FontAwesomeIcon
-                icon={faTable}
-                className="absolute mt-[100px] text-gray-400 shadow-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] text-xl -ml-3 -rotate-90 cursor-pointer"
-            />
+        <div className="bg-gray-700 p-6 rounded-2xl shadow-lg shadow-black w-full">
+            <div>
+                <div><FontAwesomeIcon
+                    icon={faCircleQuestion}
+                    className="absolute -mt-1 text-gray-400 shadow-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] text-2xl -ml-3 cursor-pointer "
+                />
+                </div>
 
-            <div className="flex space-x-1 items-center shadow-md shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] px-1 mx-6 py-1 bg-slate-950 rounded-3xl">
-                <button
-                    className={`w-1/3 py-2 text-lg rounded-2xl hover:bg-gray-800 ${activeTab === 'about' ? 'bg-gray-700 text-white' : 'text-gray-400'
-                        }`}
-                    onClick={() => setActiveTab('about')}
-                >
-                    About Me
-                </button>
-                <button
-                    className={`w-1/3 py-2 text-lg rounded-2xl hover:bg-gray-800 ${activeTab === 'experiences' ? 'bg-gray-700 text-white' : 'text-gray-400'
-                        }`}
-                    onClick={() => setActiveTab('experiences')}
-                >
-                    Experiences
-                </button>
-                <button
-                    className={`w-1/3 py-2 text-lg rounded-2xl hover:bg-gray-800 ${activeTab === 'recommended' ? 'bg-gray-700 text-white' : 'text-gray-400'
-                        }`}
-                    onClick={() => setActiveTab('recommended')}
-                >
-                    Recommended
-                </button>
+
+                <div className="flex space-x-1 items-center shadow-md shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] px-1 mx-6 py-1 bg-slate-950 rounded-3xl">
+                    <button
+                        className={`w-1/3 py-2 text-lg rounded-2xl hover:bg-gray-800 ${activeTab === 'about' ? 'bg-gray-700 text-white' : 'text-gray-400'
+                            }`}
+                        onClick={() => setActiveTab('about')}
+                    >
+                        About Me
+                    </button>
+                    <button
+                        className={`w-1/3 py-2 text-lg rounded-2xl hover:bg-gray-800 ${activeTab === 'experiences' ? 'bg-gray-700 text-white' : 'text-gray-400'
+                            }`}
+                        onClick={() => setActiveTab('experiences')}
+                    >
+                        Experiences
+                    </button>
+                    <button
+                        className={`w-1/3 py-2 text-lg rounded-2xl hover:bg-gray-800 ${activeTab === 'recommended' ? 'bg-gray-700 text-white' : 'text-gray-400'
+                            }`}
+                        onClick={() => setActiveTab('recommended')}
+                    >
+                        Recommended
+                    </button>
+                </div>
             </div>
-            <div className="h-32 overflow-y-auto mt-">
+
+            <div className="h-32 overflow-y-auto mt-1">
+                <div>
+                    <FontAwesomeIcon
+                        icon={faTable}
+                        className="absolute mt-10 -ml-2  text-gray-400 shadow-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] text-xl -rotate-90 cursor-pointer"
+                    />
+                </div>
                 <div className="mt-6 mx-10 text-gray-300">
                     {activeTab === 'about' && <p className="text-base text-justify">With a
                         Bachelor of Engineering in Computer Science from the University
@@ -71,7 +78,7 @@ const TabsWidget = () => {
                 </div>
             </div>
         </div>
-        
+
     );
 };
 
