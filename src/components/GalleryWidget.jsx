@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { img1, img2, img3, img4, img5 } from '../utils/imageStore';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons'; 
+import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
 import { faTable } from '@fortawesome/free-solid-svg-icons';
 
 

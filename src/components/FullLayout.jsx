@@ -5,7 +5,7 @@ import GalleryWidget from './GalleryWidget';
 
 
 
-const MainLayout = () => {
+const FullLayout = () => {
   return (
     <div className="flex h-screen bg-slate-900">
       {/* Left half empty */}
@@ -25,4 +25,4 @@ const MainLayout = () => {
 };
 
 
-export default MainLayout;
+export default FullLayout;
