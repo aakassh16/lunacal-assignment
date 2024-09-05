@@ -66,15 +66,13 @@ const TabsWidget = () => {
                     {activeTab === 'experiences' && <p>My technical skills include Java, JavaScript,
                         HTML, CSS, SQL, and Python, along with tools like Git/GitHub and VS Code.
                         I have practical experience with frameworks and libraries such as
-                        Bootstrap, JQuery, and React JS. One of my notable projects is a
+                        Bootstrap, JQuery,TailWind CSS and React JS. One of my notable projects is a
                         Christmas-themed website developed using various JavaScript libraries,
                         showcasing my ability to create engaging and interactive web pages.
-                        <br />   I am particularly drawn to your company because of [specific
-                        reason related to the company, e.g., its innovative projects, commitment
-                        to technology, or company culture]. I am eager to bring my dedication,
-                        strong work ethic, and technical expertise to your team, and I am confident
-                        that my background and skills align well with the requirements of this role.</p>}
-                    {activeTab === 'recommended' && <p>Recommended content goes here...</p>}
+                        <br />. I am eager to bring my dedication,strong work ethic, and technical 
+                        expertise to your team, and I am confident that my background and skills 
+                        align well with the requirements of this role.</p>}
+                    {activeTab === 'recommended' && <p>We can put our recommendation here...</p>}
                 </div>
             </div>
         </div>
