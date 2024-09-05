@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lunacal-assignment/static/css/main.bfe7689a.css",
-    "main.js": "/lunacal-assignment/static/js/main.3c472926.js",
+    "main.css": "/lunacal-assignment/static/css/main.cd62ede8.css",
+    "main.js": "/lunacal-assignment/static/js/main.5939837d.js",
     "index.html": "/lunacal-assignment/index.html",
-    "main.bfe7689a.css.map": "/lunacal-assignment/static/css/main.bfe7689a.css.map",
-    "main.3c472926.js.map": "/lunacal-assignment/static/js/main.3c472926.js.map"
+    "main.cd62ede8.css.map": "/lunacal-assignment/static/css/main.cd62ede8.css.map",
+    "main.5939837d.js.map": "/lunacal-assignment/static/js/main.5939837d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfe7689a.css",
-    "static/js/main.3c472926.js"
+    "static/css/main.cd62ede8.css",
+    "static/js/main.5939837d.js"
   ]
 }
