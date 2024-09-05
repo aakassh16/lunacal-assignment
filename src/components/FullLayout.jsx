@@ -8,6 +8,7 @@ import GalleryWidget from './GalleryWidget';
 const FullLayout = () => {
   return (
     <div className="flex h-screen bg-slate-900">
+ 
       <div className="hidden lg:block lg:w-1/2"></div>
       
       <div className="w-full lg:w-1/2 p-4 sm:p-6 space-y-6 mt-3">
